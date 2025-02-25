@@ -1,7 +1,7 @@
 {
   "name": "react-native-tinkoff-pay",
   "version": "0.1.0",
-  "description": "t",
+  "description": "A React Native module for T-Bank Acquiring SDK payments",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",

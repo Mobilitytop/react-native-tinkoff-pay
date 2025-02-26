@@ -1,0 +1,7 @@
+src
+example
+__tests__
+node_modules
+*.log
+.git
+.gitignore

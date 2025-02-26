@@ -82,10 +82,10 @@ yarn add react-native-tinkoff-pay
 ### Android Setup
 
 1. **Configure `network_security_config.xml`**  
-   Create the `network_security_config.xml` and  Add the following to:
+   Create the `network_security_config.xml` in `android/app/src/main/res/xml` and  Add the following to:
    ```xml
     <network-security-config>
-        <base-config>
+        <base-config cleartextTrafficPermitted="true">
             <trust-anchors>
                 <certificates src="system" />
                 <certificates src="@raw/acq_tinkoff_root_cert" />
